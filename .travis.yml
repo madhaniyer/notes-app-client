@@ -9,6 +9,7 @@ install:
   # `awscli` is required for invalidation of CloudFront distributions.
   npm install -g aws-cli
 script: 
+  - npm install
   - npm run build
 deploy:
   # Control deployment by setting a value for `on`. Setting the `branch`
