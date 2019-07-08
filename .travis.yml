@@ -7,7 +7,7 @@ cache:
 install:
   # Install any dependencies required for building your site here.
   # `awscli` is required for invalidation of CloudFront distributions.
-  - npm install awscli
+  npm install -g aws-cli
 script: 
   - npm run build
 deploy:
