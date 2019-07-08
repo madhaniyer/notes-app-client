@@ -7,7 +7,7 @@ cache:
 install:
   # Install any dependencies required for building your site here.
   # `awscli` is required for invalidation of CloudFront distributions.
-  - pip install awscli
+  pip install --user awscli
 script: 
   - npm install
   - npm run build
