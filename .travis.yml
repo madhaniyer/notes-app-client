@@ -7,8 +7,8 @@ cache:
 install:
   # Install any dependencies required for building your site here.
   # `awscli` is required for invalidation of CloudFront distributions.
-  pip install urllib3[secure]
-  pip install --user awscli 
+  #pip install --user awscli 
+  npm install -g aws-cli
 script: 
   - npm install
   - npm run build
